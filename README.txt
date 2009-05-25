@@ -32,7 +32,8 @@ Installation
 2) Enable the module.
 
 3) Go to the "Layout settings" tab of the Panels page, Mini panel, ... on
-which you want to apply this style.
+which you want to apply this style. To ensure the 'tabs' panel style works
+correctly, only use a one column layout.
 
 
 Troubleshooting

@@ -1,4 +1,4 @@
-
+@todo: Port this readme to d7 and get out old stuff
 Description
 -----------
 Configurable 'tabs' panel style. Provides 3 kinds of tabs:
@@ -49,6 +49,8 @@ Sponsors
 --------
 * Initial development:
    Paul Ektov of http://autobin.ru.
+* Port to drupal7:
+    Amitai Burstein of http://gizra.com/
 
 
 Author

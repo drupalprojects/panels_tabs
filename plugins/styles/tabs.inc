@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * @file
  * Definition of the 'Tabs' panel style.

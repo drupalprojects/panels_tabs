@@ -5,7 +5,7 @@
  * Definition of the 'Tabs' panel style.
  */
 
-// Plugin definition
+// Plugin definition.
 $plugin = array(
   'title' => t('Tabs'),
   'description' => t('Show panel panes in a region as tabs.'),
@@ -60,7 +60,7 @@ function theme_panels_tabs_style_render_region($vars) {
     if (!empty($panes[$pane_id])) {
       $title = panels_tabs_pane_titles($display->did, $pane_id);
       $title = $title ? $title : t('Tab @delta', array('@delta' => $delta));
-      $items[] = '<a href="#'. $tab_id . '-' . $delta .'">' . $title . '</a>';
+      $items[] = '<a href="#' . $tab_id . '-' . $delta . '">' . $title . '</a>';
       $delta++;
     }
   }
@@ -80,6 +80,9 @@ function theme_panels_tabs_style_render_region($vars) {
   return drupal_render($element);
 }
 
+/**
+ * Settings form for the plugin.
+ */
 function panels_tabs_pane_settings_form($style_settings) {
   $form = array();
 

@@ -65,6 +65,11 @@ function theme_panels_tabs_style_render_region($vars) {
     }
   }
 
+  if ($delta === 1) {
+    // No tabs to show, the tabs wrapper must not be rendered.
+    return '';
+  }
+
   $element['tabs_title'] = array('#theme' => 'item_list', '#items' => $items);
 
   $delta = 1;

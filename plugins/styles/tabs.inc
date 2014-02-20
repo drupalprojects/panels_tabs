@@ -49,7 +49,7 @@ function theme_panels_tabs_style_render_region($vars) {
   $items = array();
   $delta = 1;
 
-  if (!isset($display->panels[$region_id])) {
+  if (isset($display->panels[$region_id])) {
     foreach ($display->panels[$region_id] as $pane_id) {
       // Make sure the pane exists.
       if (!empty($panes[$pane_id])) {
